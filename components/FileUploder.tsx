@@ -7,7 +7,8 @@ import {useDropzone} from 'react-dropzone'
 
 const FileUploder = () => {
 
-    const onDrop = useCallback((acceptedFiles: File[]) => { console.log("File",acceptedFiles);
+    const onDrop = useCallback((acceptedFiles: File[]) => {
+        console.log(acceptedFiles)
         // Do something with the files
       }, [])
       const {getRootProps, getInputProps, isDragActive, isFocused, isDragAccept} = useDropzone({onDrop})

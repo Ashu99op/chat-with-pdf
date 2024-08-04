@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { BrainCogIcon, EyeIcon, GlobeIcon, Monitor, MonitorSmartphoneIcon, ServerCogIcon, ZapIcon } from "lucide-react";
+import { BrainCogIcon, EyeIcon, GlobeIcon, MonitorSmartphoneIcon, ServerCogIcon, ZapIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
