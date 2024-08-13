@@ -66,10 +66,13 @@ const FileUploder = () => {
             {progress} %
           </div>
 
+           {/* Render Status Icon */}
+
           {
+            //@ts-ignore
             statusIcons[status!]
           }
-
+          {/* @ts-ignore */}
           <p className='text-indigo-600 animate-pulse'>{status}</p>
         </div> 
       )}
