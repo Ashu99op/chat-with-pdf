@@ -20,7 +20,7 @@ const PlaceHolderDocuments = () => {
     }
 
   return (
-    <Button onClick={handleClick} className='flex flex-col items-center justify-center w-64 h-80 rounded-xl bg-gray-200 drop-shadow-md text-gray-400'>
+    <Button onClick={handleClick} className='flex flex-col items-center justify-center w-64 h-80 rounded-xl bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-400 drop-shadow-md text-gray-400 dark:hover:text-gray-600'>
         {isOverFileLimit ? (
           <FrownIcon className='h-16 w-16'/>
         ):(

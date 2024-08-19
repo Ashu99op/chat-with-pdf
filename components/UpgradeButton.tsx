@@ -46,7 +46,7 @@ const UpgradeButton = () => {
                 <Loader2Icon className='animate-spin' />
             ):(
                 <p>
-                    <span className='font-extrabold'>PRO</span> Account
+                    <span className='font-extrabold'>PRO</span> <span>Account</span>
                 </p>
             )}
         </Button>

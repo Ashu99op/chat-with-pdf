@@ -53,28 +53,28 @@ const PricingPage = () => {
           <h2 className='text-base font-semibold leading-7 text-indigo-600'>
             Pricing
           </h2>
-          <p className='mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl'>
+          <p className='mt-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl'>
             Supercharge your Document Companion
           </p>
         </div>
 
-        <p className='mx-auto mt-6 max-w-2xl px-10 text-center text-lg leading-8 text-gray-600'>
+        <p className='mx-auto mt-6 max-w-2xl px-10 text-center text-lg leading-8 text-gray-600 dark:text-gray-300'>
           Choose an affordable plan thats packed with the best features for interacting with your PDFs, enhancing productivity, and your workflow.
         </p>
 
         <div className='max-w-md mx-auto mt-10 grid grid-cols-1 md:grid-cols-2 md:max-w-2xl gap-8 lg:max-w-4xl'>
           <div className='ring-1 ring-gray-200 p-8 h-fit pb-12 rounded-3xl'>
-            <h3 className='text-lg font-semibold leading-8 text-gray-900'>
+            <h3 className='text-lg font-semibold leading-8 text-gray-900 dark:text-white'>
               Starter Plan
             </h3>
-            <p className='mt-4 text-sm leading-6 text-gray-600'>
+            <p className='mt-4 text-sm leading-6 text-gray-600 dark:text-gray-300'>
               Explore Core Features at No Cost
             </p>
             <p className='mt-6 flex items-baseline gap-x-1'>
-              <span className='text-4xl font-bold tracking-tight text-gray-900'>Free</span>
+              <span className='text-4xl font-bold tracking-tight text-gray-900 dark:text-white'>Free</span>
             </p>
 
-            <ul className='mt-8 space-y-3 text-sm leading-6 text-gray-600'>
+            <ul className='mt-8 space-y-3 text-sm leading-6 text-gray-600 dark:text-gray-300'>
               <li className='flex gap-x-3'>
                 <CheckIcon className='h-6 w-5 flex-none text-indigo-600'/>
                 2 Documents
@@ -94,14 +94,14 @@ const PricingPage = () => {
             <h3 className='text-lg font-semibold leading-8 text-indigo-800'>
               Pro Plan
             </h3>
-            <p className='mt-4 text-sm leading-6 text-gray-600'>
+            <p className='mt-4 text-sm leading-6 text-gray-600 dark:text-gray-300'>
               Maximize Productivity with PRO Features
             </p>
             <p className='mt-6 flex items-baseline gap-x-1'>
-              <span className='text-4xl font-bold tracking-tight text-gray-900'>
+              <span className='text-4xl font-bold tracking-tight text-gray-900 dark:text-white'>
                 $5.99
               </span>
-              <span className='text-sm font-semibold leading-6 text-gray-600'>
+              <span className='text-sm font-semibold leading-6 text-gray-600 dark:text-gray-300'>
                 / month
               </span>
             </p>
@@ -118,7 +118,7 @@ const PricingPage = () => {
                 : 'Upgrade to Pro')}
             </Button>
 
-            <ul className='mt-8 space-y-3 text-sm leading-6 text-gray-600'>
+            <ul className='mt-8 space-y-3 text-sm leading-6 text-gray-600 dark:text-gray-300'>
               <li className='flex gap-x-3'>
                 <CheckIcon className='h-6 w-5 flex-none  text-indigo-600'/>
                 Store upto 20 Documents

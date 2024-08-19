@@ -19,7 +19,7 @@ const Documents = async () => {
     .get();
 
   return (
-    <div className='flex flex-wrap p-5 bg-gray-100 justify-center lg:justify-start rounded-sm gap-5 max-w-7xl mx-auto'>
+    <div className='flex flex-wrap p-5 bg-gray-100 dark:bg-gray-900 justify-center lg:justify-start rounded-sm gap-5 max-w-7xl mx-auto'>
         {/* {Map thtough doc} */}
         {documentsnapShot.docs.map((doc) => {
           const { name, downloadUrl, size } = doc.data();

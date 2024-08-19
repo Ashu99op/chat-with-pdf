@@ -4,11 +4,12 @@ import React from 'react'
 import { Button } from './ui/button'
 import { FilePlus2 } from 'lucide-react'
 import UpgradeButton from './UpgradeButton'
+import { ModeToggle } from './ModeToggle'
 
 const Header = () => {
   return (
-    <div className='flex justify-between bg-white shadow-sm p-5 border-b'>
-      <Link href="/dashboard" className='text-2xl'>
+    <div className='flex justify-between shadow-sm p-5 border-b'>
+      <Link href="/dashboard" className='text-2xl self-center'>
         Chat to <span className='text-indigo-600'>PDF</span>
       </Link>
 
@@ -29,6 +30,7 @@ const Header = () => {
             </Button>
 
             <UpgradeButton />
+            <ModeToggle/>
             <UserButton/>
         </div>
       </SignedIn>

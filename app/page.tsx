@@ -39,16 +39,16 @@ const features = [
 export default function Home() {
   return (
     <main className="flex-1 overflow-scroll p-2 lg:p-5 bg-gradient-to-bl from-white to-indigo-600">
-      <div className="bg-white py-24 sm:py-32 rounded-md drop-shadow-xl">
+      <div className="bg-white dark:bg-gray-900 py-24 sm:py-32 rounded-md drop-shadow-xl">
          <div className="flex flex-col justify-center items-center max-w-7xl mx-auto p-6 lg:p-8">
           <div className="mx-auto max-w-2xl sm:text-center">
             <h2 className="text-base font-semibold leading-7 text-indigo-600">
               Your Interactive Document Companion
             </h2>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl">
               Transform Your PDFs into Intractive Conversations
             </p>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
               Introducing{" "}
               <span className="font-bold text-indigo-600">Chat with PDF.</span>
               <br />
@@ -75,7 +75,7 @@ export default function Home() {
               className="mb-[-0%] rounded-xl shadow-2xl right-1 ring-gray-900/10"
             />
             <div aria-hidden="true" className="relative">
-              <div className="absolute bottom-0 -inset-x-32 bg-gradient-to-t from-white/95 pt-[5%]"/>
+              <div className="absolute bottom-0 -inset-x-32 bg-gradient-to-t from-white/95 dark:from-black/95 pt-[5%]"/>
             </div>
           </div>
          </div>
@@ -90,7 +90,7 @@ export default function Home() {
                     className="absolute left-1 top-1 h-5 w-5 text-indigo-600"
                   />
                 </dt>
-                <dd>{f.desc}</dd>
+                <dd className="dark:text-gray-300">{f.desc}</dd>
               </div>
             ))}
           </dl>
